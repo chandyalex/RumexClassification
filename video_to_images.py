@@ -3,7 +3,9 @@ import time
 import os
 
 def video_to_frames(input_loc, output_loc, jump_between_saving_frames=5):
-    """Function to extract frames from input video file
+    """
+    https://stackoverflow.com/a/49011190/7910473
+    Function to extract frames from input video file
     and save them as separate frames in an output directory.
     Args:
         input_loc: Input video file.

@@ -21,6 +21,7 @@ Install the Pandas and cv2 package by `pip install opencv-python pandas`
 3. Clone LabelImg by `git clone https://github.com/tzutalin/labelImg.git` and `cd labelImg`
 4. Follow their installation guide [here](https://github.com/tzutalin/labelImg#installation)
 5. Run LabelImg by `python labelImg.py`
+- `pip install pyqt5 lxml`
 6. Open your directory with images that need tagging
 7. Start drawing boundary boxes where the rumex images are by pressing W and saving by CTRL+S or CMD+S. This saves an XML file.
 8. Do that for all images with rumex in them (skip the one's where there is no rumex)

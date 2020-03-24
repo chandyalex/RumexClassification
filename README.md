@@ -4,6 +4,14 @@
 
 ~1 minute of video ≈ 1 hour of annotating
 
+## Install Conda
+
+1. Download [Anaconda Navigator](https://www.anaconda.com/distribution/)
+2. Mac: Open Terminal, Windows: Open Anaconda Prompt
+3. `conda create -n env_name` and replace env_name with the desired name for the environment
+4. `conda activate env_name`
+5. Continue on to the guide
+
 ## Guide
 
 Install the Pandas and cv2 package by `pip install opencv-python pandas`

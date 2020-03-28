@@ -1,0 +1,26 @@
+<annotation>
+	<folder>025_hand_grass</folder>
+	<filename>025_hand_grass00021.jpg</filename>
+	<path>C:\Users\sebs8\RumexClassification\VideosSplitIntoFrames\025_hand_grass\025_hand_grass00021.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rumex</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>656</xmin>
+			<ymin>107</ymin>
+			<xmax>890</xmax>
+			<ymax>180</ymax>
+		</bndbox>
+	</object>
+</annotation>

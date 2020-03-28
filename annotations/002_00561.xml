@@ -1,0 +1,26 @@
+<annotation>
+	<folder>002_top_soil</folder>
+	<filename>00561.jpg</filename>
+	<path>/Users/jacobhertz/Desktop/RumexVideo/VideosSplitIntoFrames/002_top_soil/00561.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rumex</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1127</xmin>
+			<ymin>248</ymin>
+			<xmax>1210</xmax>
+			<ymax>395</ymax>
+		</bndbox>
+	</object>
+</annotation>

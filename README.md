@@ -34,8 +34,7 @@ Done.. now go get more videos! And repeat..
 
 # Training the rumex model
 
-## For detailed steps to install Object Detection API, follow the [Tensorflow installation
-instructions](installation.md)
+## For detailed steps to install Object Detection API, follow the [Tensorflow installationinstructions](https://github.com/chandyalex/RumexClassification/blob/master/installation.md)
 
 After installing the object detection API 
 

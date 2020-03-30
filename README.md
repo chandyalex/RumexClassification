@@ -2,7 +2,7 @@
 
 [LabelImg](https://github.com/tzutalin/labelImg) was used to label all images.
 
-~1 minute of video ≈ 1 hour of annotating.~
+~1 minute of video ≈ 1 hour of annotating
 
 ## Install Conda
 
@@ -29,8 +29,6 @@ Install the Pandas and cv2 package by `pip install opencv-python pandas`
 10. Run the next script `python image_files_to_dataset.py` to save your to a dataset we can use.
 
 Done.. now go get more videos! And repeat..
-
-
 
 # Training the rumex model
 
@@ -79,5 +77,4 @@ label_map_path: `"directory/training_config/object-detection.pbtxt"`
 `python export_inference_graph.py --input_type image_tensor --pipeline_config_path raining_config/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training_output/model.ckpt-XXXX --output_directory final_model`
 
 9. Running iference `python inference.py`
-
 

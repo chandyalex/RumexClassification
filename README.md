@@ -34,7 +34,7 @@ Done.. now go get more videos! And repeat..
 
 ## For detailed steps to install Object Detection API, follow the 
 
-[Tensorflow installationinstructions](https://github.com/chandyalex/RumexClassification/blob/master/installation.md)
+##[Tensorflow installationinstructions](https://github.com/chandyalex/RumexClassification/blob/master/installation.md)
 
 After installing the object detection API 
 
@@ -42,16 +42,19 @@ After installing the object detection API
 2. Run `"jupyter-notebook"` select split `labels.ipynb` and run, it will return the train and test csv files.
 3. Now we need to create tf record by nunning generate_tfrecord.py 
 
-```python generate_tfrecord.py --csv_input=directory\train_labels.csv --image_dir=image_directory --output_path=train.record```
+```bash
+python generate_tfrecord.py --csv_input=directory\train_labels.csv --image_dir=image_directory --output_path=train.record
 
-```python generate_tfrecord.py --csv_input=directory\test_labels.csv --image_dir=image_directory --output_path=test.record```
+python generate_tfrecord.py --csv_input=directory\test_labels.csv --image_dir=image_directory --output_path=test.record
+
+```
 
 
 4. make sure that `"object-detection.pbtxt"` in training_config
 
  looks like this
 
-```
+```bash
 item {
   id: 1
   name: 'rumex'
@@ -61,25 +64,50 @@ item {
 5. Now we need to create a training configuration file. , `ssd_mobilenet_v1_pets.config` , which can be found in the "`training_config`" folder.
 
 6. Changes to be made in config file:
+```bash
 
- fine_tune_checkpoint: `directory/base_model/model.ckpt`
+ #fine_tune_checkpoint: 
 
- `input_path: "directory/train.record" line 123`
+ directory/base_model/model.ckpt
 
- label_map_path: "directory/training_config/object-detection.pbtxt"
+ #input_path: 
 
- input_path: "directory/test.record" line 135
+ "directory/train.record" line 123
 
- label_map_path: `"directory/training_config/object-detection.pbtxt"`
+ #label_map_path: 
+
+ "directory/training_config/object-detection.pbtxt"
+
+ #input_path: 
+
+ "directory/test.record" line 135
+
+ #label_map_path: 
+
+ "directory/training_config/object-detection.pbtxt"
+
+ ```
 
 
 7. Training model
 
-`python train.py --logtostderr --model_dir=training_output/ --pipeline_config_path=training_config/ssd_mobilenet_v1_pets.config`
+```bash
+
+python train.py --logtostderr --model_dir=training_output/ --pipeline_config_path=training_config/ssd_mobilenet_v1_pets.config
+
+```
 
 8. Export model
 
-````python export_inference_graph.py --input_type image_tensor --pipeline_config_path raining_config/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training_output/model.ckpt-XXXX --output_directory final_model````
+```bash
+python export_inference_graph.py --input_type image_tensor --pipeline_config_path raining_config/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training_output/model.ckpt-XXXX --output_directory final_model
+```
 
-9. Running iference `python inference.py`
+9. Running inference 
+
+```bash
+
+python inference.py
+
+```
 

@@ -93,14 +93,14 @@ item {
 
 ```bash
 
-python train.py --logtostderr --model_dir=training_output/ --pipeline_config_path=training_config/ssd_mobilenet_v1_pets.config
+python train.py --logtostderr --train_dir=training_output/ --pipeline_config_path=training_config/ssd_mobilenet_v1_pets.config
 
 ```
 
 8. Export model
 
 ```bash
-python export_inference_graph.py --input_type image_tensor --pipeline_config_path raining_config/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training_output/model.ckpt-XXXX --output_directory final_model
+python export_inference_graph.py --input_type image_tensor --pipeline_config_path training_config/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training_output/model.ckpt-XXXX --output_directory final_model
 ```
 
 9. Running inference 

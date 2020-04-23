@@ -1,0 +1,38 @@
+<annotation>
+	<folder>028_top_snow</folder>
+	<filename>028_00131.jpg</filename>
+	<path>/Users/jacobhertz/Studie/Kurser/X-tech/X-tech - 10. semester/Project/VideoAndImages/RumexVideo/VideosSplitIntoFrames/028_top_snow/028_00131.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>root</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>659</xmin>
+			<ymin>540</ymin>
+			<xmax>767</xmax>
+			<ymax>594</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rumex</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>567</xmin>
+			<ymin>378</ymin>
+			<xmax>918</xmax>
+			<ymax>689</ymax>
+		</bndbox>
+	</object>
+</annotation>

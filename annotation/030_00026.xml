@@ -1,0 +1,38 @@
+<annotation>
+	<folder>030_top_snow</folder>
+	<filename>030_00026.jpg</filename>
+	<path>/Users/jacobhertz/Studie/Kurser/X-tech/X-tech - 10. semester/Project/VideoAndImages/RumexVideo/VideosSplitIntoFrames/030_top_snow/030_00026.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rumex</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>733</xmin>
+			<ymin>324</ymin>
+			<xmax>936</xmax>
+			<ymax>608</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>root</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>735</xmin>
+			<ymin>537</ymin>
+			<xmax>793</xmax>
+			<ymax>596</ymax>
+		</bndbox>
+	</object>
+</annotation>

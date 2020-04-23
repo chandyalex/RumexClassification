@@ -2,15 +2,19 @@ import os
 import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
-
+file_name=''
+new_name=''
 
 def xml_to_csv(path):
     xml_list = []
     for xml_file in glob.glob(path + '/*.xml'):
         tree = ET.parse(xml_file)
+        file_name = xml_file.split('/')[5]
+        new_name = file_name[:-4]
+
         root = tree.getroot()
         for member in root.findall('object'):
-            value = (root.find('filename').text,
+            value = (new_name+'.jpg',
                      int(root.find('size')[0].text),
                      int(root.find('size')[1].text),
                      member[0].text,
@@ -26,8 +30,10 @@ def xml_to_csv(path):
 
 
 def main():
-    image_path = os.path.join(os.getcwd(), 'annotations')
+    image_path = os.path.join(os.getcwd(), '/home/chandy/RumexClassification/annotation')
     xml_df = xml_to_csv(image_path)
+    xml_df = xml_df.replace('1','rumex')
+    xml_df.drop(xml_df.loc[xml_df['class']=='root'].index, inplace=True)
     xml_df.to_csv('rumex_labels.csv', index=None)
     print('Successfully converted xml to csv.')
 

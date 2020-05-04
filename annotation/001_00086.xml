@@ -1,7 +1,7 @@
 <annotation>
-	<folder>001_hand_soil</folder>
-	<filename>00086.jpg</filename>
-	<path>/Users/jacobhertz/Desktop/RumexVideo/VideosSplitIntoFrames/001_hand_soil/00086.jpg</path>
+	<folder>images</folder>
+	<filename>001_00086.jpg</filename>
+	<path>/home/chandy/RumexClassification/images/001_00086.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,8 +17,8 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>335</xmin>
-			<ymin>509</ymin>
+			<xmin>374</xmin>
+			<ymin>369</ymin>
 			<xmax>837</xmax>
 			<ymax>720</ymax>
 		</bndbox>
@@ -45,18 +45,6 @@
 			<ymin>40</ymin>
 			<xmax>530</xmax>
 			<ymax>278</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rumexw</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>433</xmin>
-			<ymin>383</ymin>
-			<xmax>630</xmax>
-			<ymax>484</ymax>
 		</bndbox>
 	</object>
 	<object>

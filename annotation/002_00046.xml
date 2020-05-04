@@ -1,7 +1,7 @@
 <annotation>
-	<folder>002_top_soil</folder>
-	<filename>00046.jpg</filename>
-	<path>/Users/jacobhertz/Desktop/RumexVideo/VideosSplitIntoFrames/002_top_soil/00046.jpg</path>
+	<folder>images</folder>
+	<filename>002_00046.jpg</filename>
+	<path>/home/chandy/RumexClassification/images/002_00046.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,52 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>rumex</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>788</xmin>
-			<ymin>1</ymin>
-			<xmax>882</xmax>
-			<ymax>178</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rumex</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>925</xmin>
-			<ymin>1</ymin>
-			<xmax>1070</xmax>
-			<ymax>121</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rumex</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>574</ymin>
-			<xmax>144</xmax>
-			<ymax>717</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>rumex</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>187</xmin>
-			<ymin>583</ymin>
-			<xmax>270</xmax>
-			<ymax>661</ymax>
-		</bndbox>
-	</object>
 </annotation>

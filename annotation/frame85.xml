@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>002_00066.jpg</filename>
-	<path>/home/chandy/RumexClassification/images/002_00066.jpg</path>
+	<folder>dump</folder>
+	<filename>frame85.jpg</filename>
+	<path>/home/chandy/perception/dump/frame85.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>rumex</name>
+		<name>box</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>555</xmin>
-			<ymin>7</ymin>
-			<xmax>1245</xmax>
-			<ymax>404</ymax>
+			<xmin>1120</xmin>
+			<ymin>263</ymin>
+			<xmax>1228</xmax>
+			<ymax>363</ymax>
 		</bndbox>
 	</object>
 </annotation>

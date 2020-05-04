@@ -1,7 +1,7 @@
 <annotation>
-	<folder>002_top_soil</folder>
-	<filename>00471.jpg</filename>
-	<path>/Users/jacobhertz/Desktop/RumexVideo/VideosSplitIntoFrames/002_top_soil/00471.jpg</path>
+	<folder>images</folder>
+	<filename>002_00471.jpg</filename>
+	<path>/home/chandy/RumexClassification/images/002_00471.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>721</xmin>
 			<ymin>374</ymin>
-			<xmax>893</xmax>
-			<ymax>634</ymax>
+			<xmax>1161</xmax>
+			<ymax>703</ymax>
 		</bndbox>
 	</object>
 </annotation>
